@@ -1,0 +1,98 @@
+/* PC */
+@media(min-width:64em) {
+   
+}
+/* tablet & mobile */
+@media(max-width:63.9375em) {
+   .btn{
+      padding:16px 16px;
+   }
+
+   .contact-form .form-control {
+      padding: 15px;
+   }
+
+   .contact-info {
+      line-height: 2.0;
+   }
+
+   #footer .social-list a {
+      padding: 0 8px;
+      font-size: 30px;
+   }
+
+   #footer .copyright a {
+      padding: 8px 0;
+      display: inline-block;
+  }
+
+
+}
+
+/* tablet */
+@media(min-width:46.25em) and (max-width:63.9375em){
+
+}
+
+/* Mobile */
+@media (max-width:46.1875em){
+   .s-col-full {
+      width: 100% !important;
+   }
+
+   .s-full-width {
+      width:100% !important;
+   }
+
+   .s-mt-8 {
+      margin-top: 8px;
+   }
+
+   #header {
+      overflow: hidden;
+   }
+
+   #header .menu-btn {
+      display: block;
+   }
+   
+   #header .search-btn {
+      display: none;
+   }
+   
+   #header #nav .subnav {
+      position: initial;
+   }
+
+   #header #nav .subnav a {
+      padding: 4px 40px;
+      background-color: rgba(0,0,0,0.8);
+      color: #fff;
+   }
+
+   #nav {
+      display: block;
+   }
+
+   #nav > li {
+      display: block;
+   }
+
+   #nav > li:first-child {
+      display: inline-block;
+   }
+   #slider .text-content {
+      display: none;
+   }
+   
+   #content .member-img {
+      width: 60%;
+   }
+   .tour-section .place-list {
+      margin-top: 16px;
+   }
+   .contact-form {
+      margin-top: 32px;
+   }
+   
+}
